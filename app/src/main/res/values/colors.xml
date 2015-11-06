@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="VaniteePink">#EB5066</color>
+    <color name="VaniteeTurqoise">#55BEB4</color>
+    <color name="VaniteeWhite">#FFFFFF</color>
+</resources>

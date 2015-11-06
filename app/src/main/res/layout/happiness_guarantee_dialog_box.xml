@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/unicatDialogueBoxImage"
+        android:src="@drawable/mascot_happy"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/unicatDialogueBoxTextTitle"
+        android:text="Vanitee's &#10; Happiness Guarantee"
+        android:layout_below="@+id/unicatDialogueBoxImage"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textColor="@color/VaniteePink"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/unicatDialogueBoxTextMessage"
+        android:text="@string/happiness_guarantee_message"
+        android:layout_below="@+id/unicatDialogueBoxTextTitle"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="10dp"
+        android:gravity="center" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/unicatDialogueBoxQuestionsBtn"
+        android:text="@string/happiness_guarantee_question_btn"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="52dp"
+        android:textColor="@color/VaniteePink"
+        android:background="@color/VaniteeWhite"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/unicatDialogueBoxCoolBtn"
+        android:text="@string/happiness_guarantee_cool_btn"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="52dp"
+        android:layout_toRightOf="@+id/unicatDialogueBoxQuestionsBtn"
+        android:textColor="@color/VaniteePink"
+        android:background="@color/VaniteeWhite"
+        android:onClick="onClickDialogBoxCoolBtn"/>
+
+
+</RelativeLayout>

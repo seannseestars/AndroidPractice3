@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AndroidPractice3</string>
+    <string name="action_settings">Settings</string>
+    <string name="discovery_home">DiscoveryHome</string>
+
+    <string name="happiness_guarantee_title">Vanitee Happiness Guarantee</string>
+    <string name="happiness_guarantee_message">Here at Vanitee we prioritise your happiness. That is why we offer a money-back guarantee if you are not satisfied with our service</string>
+
+    <string name="happiness_guarantee_question_btn">QUESTIONS?</string>
+    <string name="happiness_guarantee_cool_btn">COOL!</string>
+</resources>
